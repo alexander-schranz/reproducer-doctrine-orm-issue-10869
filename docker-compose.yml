@@ -11,7 +11,7 @@ services:
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-ChangeMe}
       MYSQL_ROOT_HOST: '%'
     volumes:
-      - db-data:/var/lib/mysql
+      - database_data:/var/lib/mysql
       # You may use a bind-mounted host directory instead, so that it is harder to accidentally remove the volume and lose all your data!
       # - ./docker/db/data:/var/lib/mysql:rw
 ###< doctrine/doctrine-bundle ###
