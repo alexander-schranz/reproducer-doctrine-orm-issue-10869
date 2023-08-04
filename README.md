@@ -1,4 +1,4 @@
-# Reproducer
+# Reproducer (not finished yet)
 
 Create test database:
 
@@ -10,5 +10,5 @@ bin/console doctrine:schema:update --force --env test
 Run tests:
 
 ```bash
-
+vendor/bin/phpunit
 ```
