@@ -10,6 +10,7 @@
         "doctrine/doctrine-bundle": "^2.10",
         "doctrine/doctrine-migrations-bundle": "^3.2",
         "doctrine/orm": "^2.16",
+        "stof/doctrine-extensions-bundle": "^1.8",
         "symfony/console": "6.3.*",
         "symfony/dotenv": "6.3.*",
         "symfony/flex": "^2",
@@ -66,6 +67,8 @@
         }
     },
     "require-dev": {
-        "symfony/maker-bundle": "^1.50"
+        "phpunit/phpunit": "^9.6",
+        "symfony/maker-bundle": "^1.50",
+        "symfony/phpunit-bridge": "^6.3"
     }
 }
